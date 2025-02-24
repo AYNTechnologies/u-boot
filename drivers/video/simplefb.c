@@ -36,6 +36,7 @@ static int simple_video_probe(struct udevice *dev)
 	 */
 	plat->base = base;
 	plat->size = size;
+	plat->hide_logo = true;
 
 	video_set_flush_dcache(dev, true);
 
