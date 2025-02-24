@@ -87,6 +87,7 @@ static int stub_clk_bind(struct udevice *dev)
 static const struct udevice_id stub_clk_ids[] = {
 	{ .compatible = "qcom,rpmcc" },
 	{ .compatible = "qcom,sm8250-rpmh-clk" },
+	{ .compatible = "qcom,sm8550-rpmh-clk" },
 	{ }
 };
 
